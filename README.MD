@@ -1,0 +1,2 @@
+# RLProject
+This project compares four SARSA variants on Gymnasium's Taxi-v4: plain SARSA, SARSA with spatial generalization, SARSA with prioritized sweeping, and the two combined. Each agent is trained with four reward functions (default, sparse and two custom shaped ones) over 5 seeds, and compared on success rate and episode length. It also runs hyperparameter sweeps over planning steps and the discount factor, and records gameplay videos of the trained agents.
